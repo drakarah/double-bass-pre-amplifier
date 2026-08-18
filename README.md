@@ -3,6 +3,8 @@
 
 A pre-amplifier for a double bass pickup that requires high impedance on the input side.
 
+<img width="719" height="1141" alt="image" src="https://github.com/user-attachments/assets/102a4544-d3b2-4bca-897c-e69831a33c9c" />
+
 ## Why 
 
 Commercial options are very expensive, I wanted to make a DIY version for much cheaper and learn about analog electronics (completely new to me).
@@ -35,14 +37,17 @@ Contains:
 
 | Reference(s) | Value / Description | Qty |
 |---|---|---:|
-| LatchingPowerSwitch | Latching power switch | 1 |
+| LatchingPowerSwitch | [Latching power switch](https://nl.aliexpress.com/item/1005010256927158.html) <img width="143" height="147" alt="image" src="https://github.com/user-attachments/assets/3b7811c6-25ee-4b0f-bc77-410cd06c594c" />
+ | 1 |
 | LED_POWER | LED | 1 |
 | Lipo batt | Battery | 1 |
-| — | OPA2134 Op-amp | 2 |
+| — | OPA2134PA Op-amp | 2 |
 | — | 8-PIN DIP SOCKET | 2 |
 | — | USB charge board | 1 |
 | — | XL6009 | 1 |
-| — | USB-C connector | 1 |
+| — | [USB-C connector](https://nl.aliexpress.com/item/1005009250540441.html) <img width="168" height="128" alt="image" src="https://github.com/user-attachments/assets/f760b4a2-6215-4e29-91d1-c1ea47e37ea8" />
+ | 1 |
+| — | JST connector male | 1 |
 
 ### Amplifier
 
@@ -55,7 +60,7 @@ Contains:
 | Cout | 1 µF 63 V, Film | 1 |
 | Ctreble | 47 nF 50 V, Ceramic | 1 |
 | D1, D2 | 1N4148 diode | 2 |
-| Input jack, Output jack | Audio jack | 2 |
+| Input jack, Output jack | 6.3mm Audio jack | 2 |
 | Rbass_fb, Rbass_in, Rgain, Rled | 4.7 kΩ | 4 |
 | Rbias_bottom, Rbias_top, Rout_pulld | 100 kΩ | 3 |
 | Rhpf_bias | 56 kΩ | 1 |
@@ -65,6 +70,8 @@ Contains:
 | Rprot | 1 kΩ | 1 |
 | Rtreble_fb, Rtreble_in | 10 kΩ | 2 |
 | Rtreble_s1, Rtreble_s2 | 2.2 kΩ | 2 |
+| — | JST connector female | 1 |
+| — | Preferably shielded cable for the input (e.g an old good USB cable) | 1 |
 
 ### Case
 
@@ -73,8 +80,54 @@ Contains:
 | — | Filament for 3D-printed case | — |
 | — | M3 3×5×4 heat-set inserts | 10 |
 | — | Copper tape for creating a Faraday cage | ~2 m |
+| — | Kapton tape to prevent short circuits | 1 |
+| — | Double sided tape to hold power electronics in place | 1 |
 | — | M3×6 mm bolts | 10 |
 | — | Velt sheets to protect the double bass from scratches | 1 |
+| — | 4mm standoffs so wires clear the perf board better | 4 |
+| — | Ring terminal for connecting lid and case shielding together | 2 |
+| — | Washer to apply pressure onto the shield | 2 |
+
+### Misc
+
+| Reference(s) | Value / Description | Qty |
+|---|---|---:|
+| — | Plenty of wiring | — |
+| — | Heat shrink to prevent short circuiting VCC to the copper tape | — |
+
+
+## Pictures
+
+<img width="993" height="513" alt="image" src="https://github.com/user-attachments/assets/0e689048-48a6-4af6-b755-2d1cc94d24d3" />
+
+<img width="952" height="530" alt="image" src="https://github.com/user-attachments/assets/0ec683e6-e297-4175-b46f-3f1a10303d13" />
+
+<img width="983" height="551" alt="image" src="https://github.com/user-attachments/assets/0bda1509-3ff7-428c-bbef-a7fd5b4e7d7c" />
+
+<img width="982" height="961" alt="image" src="https://github.com/user-attachments/assets/075c554b-cf3e-4a47-9890-2e7bf32520a4" />
+
+<img width="988" height="1058" alt="image" src="https://github.com/user-attachments/assets/9baf2ea2-cf0f-4f55-9cfa-4e6e755d8968" />
+
+<img width="984" height="891" alt="image" src="https://github.com/user-attachments/assets/950a8638-12b7-47b3-90e1-ac9be4677926" />
+
+<img width="975" height="638" alt="image" src="https://github.com/user-attachments/assets/2f391ca6-2afe-48fa-9e03-3bd14653e84c" />
+
+
+<img width="869" height="863" alt="image" src="https://github.com/user-attachments/assets/4dde837d-4f35-43b6-911c-23079dfbdb2f" />
+
+<img width="616" height="613" alt="image" src="https://github.com/user-attachments/assets/e1b74b59-79bf-44b8-ba60-e70a9a6e96c0" />
+
+<img width="924" height="781" alt="image" src="https://github.com/user-attachments/assets/3da506ad-f0ac-484a-b9de-77bbe3037ed0" />
+
+## Remarks
+
+Building should be fairly straight forward. 
+
+Solder the negative lead of the LED to the shield to ground the shield.
+
+Set XL6009 to 9V. Higher works too if you want more headroom (if your components allow for it) but it drains the battery faster.
+
+I used super glue to glue the components in place.
 
 
 
