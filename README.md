@@ -45,8 +45,7 @@ Contains:
 | — | 8-PIN DIP SOCKET | 2 |
 | — | USB charge board | 1 |
 | — | XL6009 | 1 |
-| — | [USB-C connector](https://nl.aliexpress.com/item/1005009250540441.html) <img width="168" height="128" alt="image" src="https://github.com/user-attachments/assets/f760b4a2-6215-4e29-91d1-c1ea47e37ea8" />
- | 1 |
+| — | [USB-C connector](https://nl.aliexpress.com/item/1005009250540441.html) <img width="168" height="128" alt="image" src="https://github.com/user-attachments/assets/f760b4a2-6215-4e29-91d1-c1ea47e37ea8" /> | 1 |
 | — | JST connector male | 1 |
 
 ### Amplifier
