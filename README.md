@@ -126,7 +126,18 @@ Solder the negative lead of the LED to the shield to ground the shield.
 
 Set XL6009 to 9V. Higher works too if you want more headroom (if your components allow for it) but it drains the battery faster.
 
+I seperated vcc, vbias Jumper wires to the top of the board, while signal wiring is done at the bottom of the board so they don't interfere and inject noise.
+
+I used male Dupont pins to make my life easier for soldering wires to as well give me some test locations to verify the circuit is working.
+
+I used an oscilloscope with a signal generator attached to the input to check the output of the various stages and whether they behave as expected.
+
+I also played back a sine sweep and recorded both input and output with audacity to check the frequency response is as it is in LTSpice.
+
 I used super glue to glue the components in place.
 
+In the pictures I have too many resistors on the input side that I bridges, disregard those, I initially had gain -> buffer and that did not work well, had a lot of distortion and instead of starting from scratch I modified the existing circuit.
+
+In the pictures I also have hexagons instead of octagon holes in the case, that's because I can't count apparently and didn't notice until after fitment, I updated the case model to use octagons with a bit of tolerance now.
 
 
