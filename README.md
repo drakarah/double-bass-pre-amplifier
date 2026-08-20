@@ -52,22 +52,22 @@ Contains:
 | Reference(s) | Value / Description | Qty |
 |---|---|---:|
 | Perf Board w/ Pads | | 1 |
-| Cbass, Cdec_HF, Cdec_HF2, Chpf | 100 nF 50 V, Ceramic | 4 |
-| Cbias, Cdec_LF | 10 µF 50 V, Electrolytic | 2 |
-| Cin | 100 nF 63 V, Ceramic | 1 |
-| Cout | 1 µF 63 V, Film | 1 |
-| Ctreble | 47 nF 50 V, Ceramic | 1 |
+| Cbass, Cdec_HF, Cdec_HF2, Chpf | 100 nF 50 V, Ceramic capacitor | 4 |
+| Cbias, Cdec_LF | 10 µF 50 V, Electrolytic capacitor | 2 |
+| Cin | 100 nF 63 V, Ceramic capacitor| 1 |
+| Cout | 1 µF 63 V, Film capacitor | 1 |
+| Ctreble | 47 nF 50 V, Ceramic capacitor | 1 |
 | D1, D2 | 1N4148 diode | 2 |
 | Input jack, Output jack | 6.3mm Audio jack | 2 |
-| Rbass_fb, Rbass_in, Rgain, Rled | 4.7 kΩ | 4 |
-| Rbias_bottom, Rbias_top, Rout_pulld | 100 kΩ | 3 |
-| Rhpf_bias | 56 kΩ | 1 |
-| Rin | 10 MΩ | 1 |
-| RoutIso | 100 Ω | 1 |
+| Rbass_fb, Rbass_in, Rgain, Rled | 4.7 kΩ resistor | 4 |
+| Rbias_bottom, Rbias_top, Rout_pulld | 100 kΩ resistor | 3 |
+| Rhpf_bias | 56 kΩ resistor | 1 |
+| Rin | 10 MΩ resistor | 1 |
+| RoutIso | 100 Ω resistor | 1 |
 | RpotBass, RpotGain, RpotTreble | 10 kΩ Linear potentiometer | 3 |
-| Rprot | 1 kΩ | 1 |
-| Rtreble_fb, Rtreble_in | 10 kΩ | 2 |
-| Rtreble_s1, Rtreble_s2 | 2.2 kΩ | 2 |
+| Rprot | 1 kΩ resistor | 1 |
+| Rtreble_fb, Rtreble_in | 10 kΩ  resistor | 2 |
+| Rtreble_s1, Rtreble_s2 | 2.2 kΩ resistor | 2 |
 | — | JST connector female | 1 |
 | — | Preferably shielded cable for the input (e.g an old good USB cable) | 1 |
 
