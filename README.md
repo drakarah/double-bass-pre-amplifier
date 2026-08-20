@@ -37,8 +37,7 @@ Contains:
 
 | Reference(s) | Value / Description | Qty |
 |---|---|---:|
-| LatchingPowerSwitch | [Latching power switch](https://nl.aliexpress.com/item/1005010256927158.html) <img width="143" height="147" alt="image" src="https://github.com/user-attachments/assets/3b7811c6-25ee-4b0f-bc77-410cd06c594c" />
- | 1 |
+| LatchingPowerSwitch | [Latching power switch](https://nl.aliexpress.com/item/1005010256927158.html) <img width="143" height="147" alt="image" src="https://github.com/user-attachments/assets/3b7811c6-25ee-4b0f-bc77-410cd06c594c" />  | 1 |
 | LED_POWER | LED | 1 |
 | Lipo batt | Battery | 1 |
 | — | OPA2134PA Op-amp | 2 |
